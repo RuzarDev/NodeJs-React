@@ -1,0 +1,52 @@
+.post__card {
+  width: 590px;
+}
+.card__info {
+  margin-top: 30px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #6941c6;
+}
+.card__title{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.card__title__text{
+
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--navbar);
+  height: 43px;
+}
+.card__subtitle {
+  height: 70px;
+  margin-top: 12px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #667085;
+}
+.category__list {
+  padding: 0;
+  margin-top: 6px;
+  display: flex;
+  list-style: none;
+}
+.category__item {
+  background: #eef4ff;
+  border-radius: 16px;
+  padding: 2px 10px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+  color: #6941c6;
+  margin-right: 8px;
+}

@@ -1,0 +1,13 @@
+.smallCard {
+  display: flex;
+  gap: 24px;
+  height: 250px;
+  width: 590px;
+}
+.smallCard__info {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #6941c6;
+}

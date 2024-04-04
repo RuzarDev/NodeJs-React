@@ -1,0 +1,28 @@
+.recent {
+
+
+}
+.recent__header {
+
+}
+.recent__title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--navbar);
+}
+.recent__posts {
+  margin-top: 30px;
+}
+.recent__blog {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px;
+}
+.item3{
+  grid-column: span 2;
+}
+.item2-1{
+  margin-top: 32px;
+}

@@ -1,0 +1,47 @@
+.admin-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 20%; /* Adjust as needed */
+}
+
+.admin-main {
+  flex-grow: 1;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.user-item:last-child {
+  border-bottom: none;
+}
+
+.user-email, .user-username, .user-password {
+  flex-basis: 30%; /* Adjust as needed */
+}
+.post-item {
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+  .post-id {
+    width: 20%;
+  }
+  .post-email {
+    width: 20%;
+  }
+  .post-author {
+    width: 20%;
+  }
+  .post-date {
+    width: 20%;
+  }
+  .post-title {
+    width: 20%;
+  }
+}

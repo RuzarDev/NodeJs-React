@@ -1,0 +1,14 @@
+.logo {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.34);
+  border-top: 1px solid rgba(0, 0, 0, 0.34);
+  width: 1257px;
+  margin: 60px auto 30px auto;
+  height: 295px;
+}
+
+.logo__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 243px;
+  color: var(--navbar);
+}
